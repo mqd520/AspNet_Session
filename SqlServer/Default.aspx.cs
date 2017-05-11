@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace AspNet_Session
+namespace SqlServer
 {
-    public partial class sqlserver : System.Web.UI.Page
+    public partial class _Default : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -18,7 +18,12 @@ namespace AspNet_Session
         {
             if (TextBox1.Text.Trim() != "")
             {
+                ShowError(false);
                 Session[TextBox1.Text.Trim()] = TextBox2.Text.Trim();
+            }
+            else
+            {
+                ShowError(true, "key is empty!");
             }
         }
 
@@ -28,12 +33,17 @@ namespace AspNet_Session
             {
                 if (Session[TextBox1.Text.Trim()] == null)
                 {
-                    TextBox2.Text = "null";
+                    ShowError(true, "key not exist!");
                 }
                 else
                 {
+                    ShowError(false);
                     TextBox2.Text = Session[TextBox1.Text.Trim()].ToString();
                 }
+            }
+            else
+            {
+                ShowError(true, "key is empty!");
             }
         }
 
@@ -43,9 +53,13 @@ namespace AspNet_Session
             {
                 Session[TextBox1.Text.Trim()] = null;
             }
+            else
+            {
+                ShowError(true, "key is empty!");
+            }
         }
 
-        protected void ShowError(bool show,string msg)
+        protected void ShowError(bool show, string msg = "")
         {
             if (show)
             {
@@ -56,6 +70,12 @@ namespace AspNet_Session
             {
                 lb_error.Visible = false;
             }
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            TextBox1.Text = "";
+            TextBox2.Text = "";
         }
     }
 }

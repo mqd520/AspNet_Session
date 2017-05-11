@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过下列特性集
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("AspNet_Session")]
+[assembly: AssemblyTitle("SqlServer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("AspNet_Session")]
+[assembly: AssemblyProduct("SqlServer")]
 [assembly: AssemblyCopyright("版权所有(C) Microsoft 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("0cf5b0fd-6140-4a8b-832d-0619b2cadc94")]
+[assembly: Guid("b83156d5-2211-4c6e-914c-aeba8f76c1d4")]
 
 // 程序集的版本信息由下列四个值组成:
 //
