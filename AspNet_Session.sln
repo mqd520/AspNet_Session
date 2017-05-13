@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlServer", "SqlServer\SqlServer.csproj", "{23B4B045-4F12-41C9-ACAD-AC241682F103}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateServer1", "StateServer1\StateServer1.csproj", "{CC2EB39C-E608-4A37-9397-1D4F3A209CCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateServer2", "StateServer2\StateServer2.csproj", "{527ABB32-57DB-451C-8DA5-557BE3B738DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{23B4B045-4F12-41C9-ACAD-AC241682F103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23B4B045-4F12-41C9-ACAD-AC241682F103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23B4B045-4F12-41C9-ACAD-AC241682F103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC2EB39C-E608-4A37-9397-1D4F3A209CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2EB39C-E608-4A37-9397-1D4F3A209CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2EB39C-E608-4A37-9397-1D4F3A209CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2EB39C-E608-4A37-9397-1D4F3A209CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527ABB32-57DB-451C-8DA5-557BE3B738DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527ABB32-57DB-451C-8DA5-557BE3B738DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527ABB32-57DB-451C-8DA5-557BE3B738DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527ABB32-57DB-451C-8DA5-557BE3B738DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

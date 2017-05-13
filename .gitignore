@@ -154,3 +154,12 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+
+/SqlServer/发布
+/SqlServer/Properties/PublishProfiles
+/SqlServer/发布
+/SqlServer/发布
+/SqlServer/发布/Default.aspx
+/SqlServer/发布/Global.asax
+/SqlServer/发布/Web.config
+/StateServer1/发布
