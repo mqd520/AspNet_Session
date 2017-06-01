@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySql", "MySql\MySql.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis1", "Redis1\Redis1.csproj", "{F92C11BD-EAB1-4484-AF8F-9F21296DF20C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisProvider.SessionProvider", "RedisProvider.SessionProvider\RedisProvider.SessionProvider.csproj", "{23D99A9D-94EC-43A9-8988-5030EE266022}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{75A8DA80-E4A6-4DC2-8CA1-07461997C14C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,8 +43,15 @@ Global
 		{F92C11BD-EAB1-4484-AF8F-9F21296DF20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F92C11BD-EAB1-4484-AF8F-9F21296DF20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F92C11BD-EAB1-4484-AF8F-9F21296DF20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D99A9D-94EC-43A9-8988-5030EE266022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D99A9D-94EC-43A9-8988-5030EE266022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D99A9D-94EC-43A9-8988-5030EE266022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D99A9D-94EC-43A9-8988-5030EE266022}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23D99A9D-94EC-43A9-8988-5030EE266022} = {75A8DA80-E4A6-4DC2-8CA1-07461997C14C}
 	EndGlobalSection
 EndGlobal
