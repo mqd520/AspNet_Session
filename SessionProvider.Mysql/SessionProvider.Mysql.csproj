@@ -7,8 +7,8 @@
     <ProjectGuid>{395FD8C9-3FC1-4174-BA33-A807A24D6C3A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MysqlProvider.SessionProvider</RootNamespace>
-    <AssemblyName>MysqlProvider.SessionProvider</AssemblyName>
+    <RootNamespace>SessionProvider.Mysql</RootNamespace>
+    <AssemblyName>SessionProvider.Mysql</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -47,8 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Application.cs" />
-    <Compile Include="Common.cs" />
     <Compile Include="MysqlSessionStateStore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">

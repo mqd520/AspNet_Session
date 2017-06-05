@@ -13,7 +13,7 @@ using System.Threading;
 using System.Security;
 using System.Data;
 
-namespace MysqlProvider.SessionProvider
+namespace SessionProvider.Mysql
 {
     /// <summary>
     /// This class allows ASP.NET applications to store and manage session state information in a

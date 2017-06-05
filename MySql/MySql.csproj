@@ -74,9 +74,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MysqlProvider.SessionProvider\MysqlProvider.SessionProvider.csproj">
+    <ProjectReference Include="..\SessionProvider.Mysql\SessionProvider.Mysql.csproj">
       <Project>{395fd8c9-3fc1-4174-ba33-a807a24d6c3a}</Project>
-      <Name>MysqlProvider.SessionProvider</Name>
+      <Name>SessionProvider.Mysql</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
