@@ -1,0 +1,7 @@
+1、安装Mysql5.6
+
+2、创建数据库,名称可自定义
+
+3、创建session表、存储过程、事件,执行"aspnet_session.sql"文件
+
+4、修改"Event_AutoDelExpiresSession"事件开始时间及间隔时间
