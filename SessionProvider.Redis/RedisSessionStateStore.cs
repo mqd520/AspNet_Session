@@ -10,7 +10,8 @@ using System.Configuration.Provider;
 using System.Web.Configuration;
 using System.IO;
 using System.Xml;
-namespace RedisProvider.SessionProvider
+
+namespace SessionProvider.Redis
 {
 
     #region Session Item Model
@@ -31,7 +32,7 @@ namespace RedisProvider.SessionProvider
     }
     #endregion Session Item Model
 
-    public class CustomServiceProvider : System.Web.SessionState.SessionStateStoreProviderBase, IDisposable
+    public class RedisSessionStateStore : System.Web.SessionState.SessionStateStoreProviderBase, IDisposable
     {
         /// <summary>
         /// 相关Redis的配置
@@ -79,7 +80,7 @@ namespace RedisProvider.SessionProvider
 
         #region Constructor
 
-        public CustomServiceProvider()
+        public RedisSessionStateStore()
         {
         }
         #endregion Constructor

@@ -20,8 +20,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="创   建" />
 &nbsp;<asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="读   取" />
-&nbsp;<asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="删   除" />
-&nbsp;<asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="清   空" />
+&nbsp;<asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="删除指定键" />
+&nbsp;<asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="删除所有键" />
+        &nbsp;
+        <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="删除会话" />
+        &nbsp;
+        <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="什么都不做" />
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

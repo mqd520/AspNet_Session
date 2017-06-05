@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.Configuration;
 using System.Xml;
 
-namespace RedisProvider.SessionProvider
+namespace SessionProvider.Redis
 {
     public class CustomReaderRedisWebConfig
     {

@@ -69,9 +69,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RedisProvider.SessionProvider\RedisProvider.SessionProvider.csproj">
+    <ProjectReference Include="..\SessionProvider.Redis\SessionProvider.Redis.csproj">
       <Project>{23d99a9d-94ec-43a9-8988-5030ee266022}</Project>
-      <Name>RedisProvider.SessionProvider</Name>
+      <Name>SessionProvider.Redis</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
