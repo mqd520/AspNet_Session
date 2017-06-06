@@ -67,6 +67,8 @@ namespace SessionProvider.Mysql
             throw new ProviderException(exceptionMessage, e);
         }
 
+        public static int n = 0;
+
         /// <summary>
         /// Initializes the provider with the property values specified in the ASP.NET application configuration file
         /// </summary>
@@ -75,12 +77,6 @@ namespace SessionProvider.Mysql
         /// </param>
         public override void Initialize(string name, NameValueCollection config)
         {
-            if (inited)
-            {
-                return;
-            }
-            inited = true;
-
             //Initialize values from web.config.
             if (config == null)
             {
